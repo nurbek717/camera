@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamera orqali rasmga olish</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kamera orqali rasmga olish</h1>
+    <div class="camera-section">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+    <div class="buttons">
+      <button id="capture">📸 Rasmga olish</button>
+      <a id="download" style="display:none;" download="rasm.png">⬇️ Yuklab olish</a>
+    </div>
+    <div id="preview-section" style="display:none;">
+      <h2>Olingan rasm:</h2>
+      <img id="preview" alt="Olingan rasm">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
